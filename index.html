@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №2 — JavaScript</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; background-color: #f4f6f9; color: #333; }
+        h1, h2 { color: #2c3e50; text-align: center; }
+        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .btn-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-top: 15px; }
+        button { background-color: #007bff; color: white; border: none; padding: 12px; border-radius: 5px; cursor: pointer; font-size: 14px; transition: background-color 0.2s; }
+        button:hover { background-color: #0056b3; }
+        .info { background: #e9ecef; padding: 15px; border-left: 5px solid #007bff; border-radius: 4px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Лабораторна робота №2</h1>
+    <h2>Тема: Змінні та оператори в JavaScript</h2>
+    <p style="text-align: center;"><b>Виконав:</b> Дунич Денис, група КІ-23-01</p>
+
+    <div class="section">
+        <h3>Рівень 4–6 балів</h3>
+        <div class="btn-grid">
+            <button onclick="task4_1()">Завдання 1 (Привітання)</button>
+            <button onclick="task4_2()">Завдання 2 (Рік народження)</button>
+            <button onclick="task4_3()">Завдання 3 (Повне ім'я)</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Рівень 7–9 балів</h3>
+        <div class="btn-grid">
+            <button onclick="task7_1()">Завдання 1 (Область видимості)</button>
+            <button onclick="task7_2()">Завдання 2 (Підтвердження віку)</button>
+            <button onclick="task7_3()">Завдання 3 (Парне / Непарне)</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Рівень 10–12 балів</h3>
+        <div class="btn-grid">
+            <button onclick="task10_1()">Завдання 1 (Функція & Block Scope)</button>
+            <button onclick="task10_2()">Завдання 2 (Secret Number)</button>
+            <button onclick="task10_3()">Завдання 3 (Сума двох чисел)</button>
+        </div>
+    </div>
+
+    <div class="info">
+        💡 <b>Примітка:</b> Для перегляду результатів виконання завдань з консольними виводами (<code>console.log</code>) відкрийте розробницьку консоль браузера (клавіша <b>F12</b> або <b>Ctrl + Shift + I</b>).
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
